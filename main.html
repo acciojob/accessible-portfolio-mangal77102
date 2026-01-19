@@ -1,16 +1,39 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Navigation -->
+    <nav role="navigation">
+        <a href="#about">About</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Heading -->
+    <h1 role="heading">Mangal Sabu</h1>
+
+    <!-- Image -->
+    <img role="img"
+         src="https://yt3.googleusercontent.com/Fn-eKQkZLlDgg_bQqlZZKyZdL1FsBpdQcvU0Pqqsx4OlWOvB46zP-FuDVq8BU2eYZaD0dT4bZg=s900-c-k-c0x00ffffff-no-rj" width="100px"
+         alt="Profile picture of Mangal Sabu">
+
+    <!-- Description -->
+    <p id="about">
+        I am a frontend developer passionate about building accessible and user-friendly web applications.
+    </p>
+
+    <!-- List of Projects -->
+    <ul role="list" id="projects">
+        <li role="listitem">Portfolio Website</li>
+        <li role="listitem">Blood Donation System</li>
+        <li role="listitem">HTML & CSS Mini Projects</li>
+    </ul>
 
 </body>
-
 </html>
+
+
